@@ -13,11 +13,13 @@
 .movieList {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
 }
 
 .movie {
   height: 25rem;
-  width: 13rem;
+  max-width: 13rem;
   position: relative;
   flex-grow: 1;
   border: 3px solid #dd4580;

@@ -4,7 +4,7 @@ Top Movies
 
 # Description the project.
 
-This project is using the IMDb API to display the top 250 movie. With the ability of filtering the results by name, rating or year.
+This project is a mobile app built using the IMDb API to display the top 250 movie. With the ability of filtering the results by name, rating or year.
 Also it includes a details page for each movie.
 
 ## Built With
@@ -18,11 +18,12 @@ Also it includes a details page for each movie.
 
 ## Screenshots
 
-This project is still under development
+![](media/sc01.png) ![](media/sc02.png)
+![](media/sc03.png) ![](media/sc04.png)
 
 ## Link to the Page
 
-This project is still under development
+under development
 
 ## Getting Started
 
@@ -59,6 +60,7 @@ Give a ⭐️ if you like this project!
 
 - A big kudos to everyone who worked hard to make this project a success.
 - <a target="_blank" href="https://icons8.com/icon/WYO2K5RJknB9/movie">movie icon by Icons8</a>
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 ## 📝 License
 
