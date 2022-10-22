@@ -1,0 +1,602 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="detailsContainer"
+>
+  <div
+    className="posterContainer"
+  >
+    <img
+      alt="#"
+      className="saveTag"
+      src="../assets/add.png"
+    />
+    <img
+      alt="poster"
+      className="poster"
+      src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_Ratio0.6762_AL_.jpg"
+    />
+  </div>
+  <div
+    className="name"
+  >
+    <div
+      className="header"
+    >
+      The Shawshank Redemption
+    </div>
+    <div
+      className="subHeader"
+    >
+      Movie
+       ♠ 
+      1994
+       ♠ 
+      R 
+      ♠ 
+       2h 22min
+    </div>
+  </div>
+  <div
+    className="rating"
+  >
+    <p
+      className="rTitle"
+    >
+      Rating
+    </p>
+    <div>
+      <img
+        alt="star shaped icon"
+        className="star"
+        src="../assets/star.png"
+      />
+      <div
+        className="rate"
+      >
+        <p
+          className="score"
+        >
+          <strong>
+            9.3
+          </strong>
+          /10
+        </p>
+        <br />
+        <p
+          className="votes"
+        >
+          (
+          2652191
+          )
+        </p>
+      </div>
+    </div>
+  </div>
+  <ul
+    className="genres"
+  >
+    <li
+      className="genre"
+    >
+      Drama
+    </li>
+  </ul>
+  <p
+    className="plot"
+  >
+    Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+  </p>
+  <hr />
+  <div
+    className="creators"
+  >
+    <h3
+      className="cTitle"
+    >
+      Creators:
+    </h3>
+    <p>
+      Stephen King, Frank Darabont
+    </p>
+  </div>
+  <hr />
+  <div
+    className="stars"
+  >
+    <h3
+      className="sTitle"
+    >
+      Stars:
+    </h3>
+    <p>
+      Tim Robbins, Morgan Freeman, Bob Gunton
+    </p>
+  </div>
+  <hr />
+  <div
+    className="awards"
+  >
+    <h3
+      className="awardsT"
+    >
+      Awards:
+    </h3>
+    <p>
+      Top rated movie #1 | Nominated for 7 Oscars, 21 wins & 43 nominations total
+    </p>
+  </div>
+  <hr />
+  <div
+    className="releaseDate"
+  >
+    <h3
+      className="releaseDateT"
+    >
+      Release Date:
+    </h3>
+    <p>
+      1994-10-14
+    </p>
+  </div>
+  <hr />
+  <div
+    className="companies"
+  >
+    <h3
+      className="companiesT"
+    >
+      Companies:
+    </h3>
+    <p>
+      Castle Rock Entertainment
+    </p>
+  </div>
+  <hr />
+  <div
+    className="countries"
+  >
+    <h3
+      className="countriesT"
+    >
+      Countries:
+    </h3>
+    <p>
+      USA
+    </p>
+  </div>
+  <div
+    className="cast"
+  >
+    <div
+      className="castHead"
+    >
+      <h2>
+        Top Cast
+      </h2>
+      <p
+        className="arrow"
+      />
+    </div>
+    <div
+      className="castList"
+    >
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTI1OTYxNzAxOF5BMl5BanBnXkFtZTYwNTE5ODI4._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Tim Robbins
+          </h3>
+          <p>
+            Andy Dufresne
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTc0MDMyMzI2OF5BMl5BanBnXkFtZTcwMzM2OTk1MQ@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Morgan Freeman
+          </h3>
+          <p>
+            Ellis Boyd 'Red' Redding
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMjUyZDQ0NjktZmM5ZS00NzcxLTliMWYtNWUxNDcyMmExZjU0XkEyXkFqcGdeQXVyMTE1MjA4NzM@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Bob Gunton
+          </h3>
+          <p>
+            Warden Norton
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTA1NjU3NDg1MTheQTJeQWpwZ15BbWU2MDI4OTcxMw@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            William Sadler
+          </h3>
+          <p>
+            Heywood
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTUxODY3NjAzMF5BMl5BanBnXkFtZTcwMTQ5MjYwNg@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Clancy Brown
+          </h3>
+          <p>
+            Captain Hadley
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTgxMzc0MDAzNV5BMl5BanBnXkFtZTgwMzUzMTI0MzE@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Gil Bellows
+          </h3>
+          <p>
+            Tommy
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BODE5NDRlZTctMjkzNC00NGY3LThhYTItNzUxZjgzYzFmMjQxXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Mark Rolston
+          </h3>
+          <p>
+            Bogs Diamond
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTg5MzkxMTkxOV5BMl5BanBnXkFtZTcwNTEzNTgxMw@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            James Whitmore
+          </h3>
+          <p>
+            Brooks Hatlen
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTQ0Mjc3NDA1OV5BMl5BanBnXkFtZTcwMTg3MDEyOA@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Jeffrey DeMunn
+          </h3>
+          <p>
+            1946 D.A.
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BNDczZGZiZjMtZGRmMC00Y2I5LThiNzAtZGQzZWYzZWFiNzM0XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Larry Brandenburg
+          </h3>
+          <p>
+            Skeet
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMjI0OTUxNjIyNF5BMl5BanBnXkFtZTcwNDE0MDcwOA@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Neil Giuntoli
+          </h3>
+          <p>
+            Jigger
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMjI2NDYwNzU0NV5BMl5BanBnXkFtZTcwMjYwMTcwOA@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Brian Libby
+          </h3>
+          <p>
+            Floyd
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMjE0MTU0NjU3Nl5BMl5BanBnXkFtZTYwNTgzNjY0._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            David Proval
+          </h3>
+          <p>
+            Snooze
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTQyNzMyNTUwNV5BMl5BanBnXkFtZTcwNjQ2MTcwOA@@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Joseph Ragno
+          </h3>
+          <p>
+            Ernie
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMjZmOTU1ZDktNDdkZi00YjkxLWFiODYtMjUzZWVhYmFiYjIxXkEyXkFqcGdeQXVyMTI3MzAzOTM@._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Jude Ciccolella
+          </h3>
+          <p>
+            Guard Mert
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMTI2Mjc1NzExN15BMl5BanBnXkFtZTYwNjUzMzQz._V1_Ratio1.0000_AL_.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Paul McCrane
+          </h3>
+          <p>
+            Guard Trout
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://imdb-api.com/images/original/nopicture.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Renee Blaine
+          </h3>
+          <p>
+            Andy Dufresne's Wife
+          </p>
+        </div>
+      </div>
+      <div
+        className="actor"
+      >
+        <div
+          className="imgContainer"
+          style={
+            Object {
+              "backgroundImage": "url(https://imdb-api.com/images/original/nopicture.jpg)",
+              "backgroundSize": "cover",
+            }
+          }
+        />
+        <div
+          className="actorInfo"
+        >
+          <h3>
+            Scott Mann
+          </h3>
+          <p>
+            Glenn Quentin
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
