@@ -1,22 +1,21 @@
 .header {
   display: flex;
-  padding: 0 5rem;
+  padding: 0 1rem;
   align-items: center;
   gap: 0;
-  backdrop-filter: blur(8px);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #222831;
+  background-color: #ec4c8a;
   z-index: 10;
-  filter: drop-shadow(0 0 15px #222831);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.123));
 }
 
 .title {
-  color: #222831;
+  color: #ec4c8a;
   margin: 1rem 0;
-  background-color: #ffd369;
+  background-color: #fff;
   padding: 2px 1rem;
   border-radius: 3px;
 }

@@ -5,6 +5,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: rgba(188, 143, 143, 0.349);
+  overflow-x: hidden;
 }

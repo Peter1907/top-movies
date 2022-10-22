@@ -4,7 +4,7 @@ import s from './Navbar.module.css';
 const NavBar = () => (
   <header className={s.header}>
     <Link className={s.homeLink} to="/">
-      <h2 className={s.title}>PMDB</h2>
+      <h2 className={s.title}>Top Movies</h2>
     </Link>
   </header>
 );
