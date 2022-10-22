@@ -35,7 +35,7 @@ export default function topMoviesReducer(state = [], action) {
 const getTopMovies = createAsyncThunk(
   GET,
   async () => {
-    const response = await axios('https://imdb-api.com/en/API/Top250Movies/k_sncsc4tf');
+    const response = await axios('https://imdb-api.com/en/API/Top250Movies/k_ju25k0g3');
     const data = await response.data;
     return data;
   },
