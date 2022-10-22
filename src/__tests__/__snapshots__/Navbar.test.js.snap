@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="header"
+>
+  <a
+    className="homeLink"
+    href="/"
+    onClick={[Function]}
+  >
+    <h2
+      className="title"
+    >
+      Top Movies
+    </h2>
+  </a>
+</header>
+`;

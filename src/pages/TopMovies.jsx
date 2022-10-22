@@ -24,7 +24,7 @@ export default function TopMovies() {
 
   return (
     <div className={s.topMovies}>
-      <h1 className={s.header}>Top 250 Movies as per Ratings</h1>
+      <h1 className={s.header}>Top 250 Movies of All Times</h1>
       <Filter filter={filterTopMovies} remove={removeTopMoviesFilter} />
       <div className={s.movieList}>
         {Data.map((item, id) => (
