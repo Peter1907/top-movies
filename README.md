@@ -23,7 +23,7 @@ Also it includes a details page for each movie.
 
 ## Link to the Page
 
-under development
+[Live Demo](https://top-movies-capstone.netlify.app/)
 
 ## Getting Started
 
