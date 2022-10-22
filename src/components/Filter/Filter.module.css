@@ -3,17 +3,18 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin: auto;
-  justify-content: flex-end;
+  margin: 0 auto 2rem;
+  justify-content: center;
+  color: white;
 }
 
 .options,
 .search {
+  color: white;
   width: 10rem;
   border-radius: 0;
-  border: 1px solid #222831;
-  font-family: 'Cairo', sans-serif;
-  padding: 5px 7px;
-  background-color: #eee;
-  box-shadow: 1px 1px 10px 1px #22283162;
+  border: 1px solid white;
+  padding: 12px 7px;
+  background-color: #d24379;
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.247);
 }

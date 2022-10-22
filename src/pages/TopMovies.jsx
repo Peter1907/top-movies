@@ -24,26 +24,27 @@ export default function TopMovies() {
 
   return (
     <div className={s.topMovies}>
-      <div className={s.headers}>
-        <h1 className={s.header}>Top Movies</h1>
-        <h3 className={s.subHeader}>PMDB&apos;s Top 250 Movies as per Ratings</h3>
-      </div>
+      <h1 className={s.header}>Top 250 Movies as per Ratings</h1>
       <Filter filter={filterTopMovies} remove={removeTopMoviesFilter} />
       <div className={s.movieList}>
-        {Data.map((item, index) => (
-          <div key={index} className={s.movie}>
-            <img className={s.poster} src={item.image} alt="movie poster" />
-            <p className={s.index}>{`${index + 1} . `}</p>
-            <Link className={s.title} to={`/item-details/${item.id}`}>
-              <p>{item.fullTitle}</p>
-            </Link>
-            <div className={s.ratingContainer}>
-              <p className={s.rating}>
-                <img src={starIcon} className={s.playButton} alt="star shaped icon" />
-                {item.imDbRating} ({item.imDbRatingCount})
-              </p>
+        {Data.map((item, id) => (
+          <div key={id} className={s.movie}>
+            <div className={s.posterContainer}>
+              <img className={s.saveTag} src={saveIcon} alt="#" />
+              <img className={s.poster} src={item.image} alt="poster" />
             </div>
-            <img className={s.saveTag} src={saveIcon} alt="#" />
+            <div className={s.info}>
+              <Link to={`/item-details/${item.id}`}>
+                <h3 className={s.title}>{id + 1}. {item.title}</h3>
+              </Link>
+              <div className={s.ratingContainer}>
+                <p className={s.rating}>
+                  <img src={starIcon} className={s.star} alt="star shaped icon" />
+                  {item.imDbRating}
+                </p>
+              </div>
+              <button className={s.btn} type="button">Add to Watchlist</button>
+            </div>
           </div>
         ))}
       </div>
