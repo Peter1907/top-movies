@@ -20,7 +20,7 @@ export default function detailsReducer(state = [], action) {
 const getDetails = createAsyncThunk(
   GET,
   async (id) => {
-    const response = await axios(`https://imdb-api.com/en/API/Title/k_0m1r0qhf/${id}`);
+    const response = await axios(`https://imdb-api.com/en/API/Title/k_ju25k0g3/${id}`);
     const data = await response.data;
     return data;
   },
