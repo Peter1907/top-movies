@@ -1,0 +1,124 @@
+.topMovies {
+  padding: 5rem 5px 3rem;
+  background-color: #ec4c8a;
+  min-height: calc(100vh - 8rem);
+}
+
+.header {
+  font-family: 'Gill Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.movie {
+  height: 25rem;
+  max-width: 13rem;
+  position: relative;
+  flex-grow: 1;
+  border: 3px solid #dd4580;
+}
+
+.posterContainer {
+  position: relative;
+  background-color: #dd4580;
+}
+
+.poster {
+  width: 100%;
+}
+
+.saveTag {
+  width: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0.3rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.saveTag:hover {
+  opacity: 1;
+  box-shadow: inset 0 0 0 80px #ffd369;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 8.8rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #96214e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0.5rem;
+  font-weight: 600;
+  color: white;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.ratingContainer {
+  justify-self: flex-end;
+  position: absolute;
+  bottom: 3.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rating {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  color: white;
+}
+
+.rating img {
+  width: 20px;
+}
+
+.btn {
+  margin: auto 0.5rem 0.5rem;
+  background-color: rgba(238, 238, 238, 0.137);
+  border: none;
+  font-size: 16px;
+  height: 2.7rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(238, 238, 238, 0.171);
+  color: #ffd369;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+@media screen and (min-width: 1366px) {
+  .movieList {
+    width: 90%;
+    margin: auto;
+  }
+}
